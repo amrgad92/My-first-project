@@ -9,10 +9,34 @@
 
     </head>
     <body>
-        <div class="parent">
-            <div class="logo">
+        <nav id="nav" class="navbar navbar-expand-sm navbar-light fixed-top">
+            <a class="navbar-brand" href="#"><div class="logo">
                 <img src="css/images project/bakery-light-1.png" width="176px" height="48px"/>
+            </div></a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li  class="nav-item active pr-3">
+                        <a id="home" class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li  class="nav-item active pr-3">
+                        <a id="about" class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li  class="nav-item active pr-3">
+                        <a id="product" class="nav-link" href="#">Product <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li  class="nav-item active pr-3">
+                        <a id="contact" class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+
             </div>
+        </nav>
+        <div class="parent">
+
             <div class="child">
                 <p>welcome to</p>
                 <h1>Family Bakery</h1>
@@ -23,7 +47,7 @@
             </div>
         </div>
 
-        <div class="bakery">
+        <div id="scroll" class="bakery">
             <img class="child2" src="css/images project/alexandru-stavrica-170390-800x760.jpg"/>
             <div class="child2">
                 <h1>
@@ -67,7 +91,7 @@
             <img class="child2" src="css/images project/full-2-800x640.jpg"/>
         </div>
 
-        <div class="bakery3">
+        <div id="scroll3" class="bakery3 pt-5">
             <h1 class="decoration head">
                 Our Baking
             </h1>
@@ -100,7 +124,7 @@
             </div>
         </div>
 
-        <div>
+        <div id="scroll4" class="pt-5">
             <div class="child2">
                 <h1>
                     Contact Information
@@ -120,7 +144,7 @@
             </div>
         </div>
 
-        <div class="bakery5">
+        <div class="bakery5 py-3">
             <div class="child5">
                 <h3>
                     About us
@@ -143,13 +167,13 @@
                     Why we are special?
                 </h3>
                 <p>Our magical recipe.</p>
-                <hr>
+                <br>
                 <p>We care about environment.</p>
-                <hr>
+                <br>
                 <p>We are trusted by hundreds of clients.</p>
-                <hr>
+                <br>
                 <p>Social media loves us!</p>
-                <hr>
+                <br>
                 <p>This list is super easy to create.</p>
             </div>
 
@@ -158,15 +182,15 @@
                     Opening Hours
                 </h3>
                 <p>Monday 10AM - 9PM</p>
-                <hr>
+                <br>
                 <p>Tuesday 10AM - 9PM</p>
-                <hr>
+                <br>
                 <p>Wednesday 10AM - 9PM</p>
-                <hr>
+                <br>
                 <p>Thursday 10AM - 10PM</p>
-                <hr>
+                <br>
                 <p>Friday 10AM - 10PM</p>
-                <hr>
+                <br>
                 <p>Weekends 10AM - 11PM</p>
             </div>
 
@@ -176,23 +200,26 @@
                 <p>+46 123 456 789</p>
                 <p>hello@sitename.com</p>
                 <p>http://www.sitename.com</p>
-                <img class="Social" src="css/images project/facebook.png"/>
-                <img class="Social" src="css/images project/twitter.png"/>
-                <img class="Social" src="css/images project/instagram.png"/>
-                <img class="Social" src="css/images project/linkedin.png"/>
-            </div>
-
-            <div class="lastbakery">
-                <div class="lastlogo">
-                    <img src="css/images project/bakery-color.png"/>
-                    <br>
-                    <p>Copyright 2017. All rights reserved.</p>
-                </div>
             </div>
         </div>
+        <div class="lastbakery py-3">
+            <div class="lastlogo">
+                <img src="css/images project/bakery-color.png"/>
+                <br>
+                <p>Copyright 2017. All rights reserved.</p>
+                    <i class="fab fa-facebook socialicon"></i>
+                    <i class="fab fa-twitter socialicon"></i>
+                    <i class="fab fa-instagram socialicon"></i>
+            </div>
+        </div>
+        <div class="arrow">
+            <i class="fa fa-arrow-up" aria-hidden="true"></i>
+        </div>
 
-        <script src="js/jquery-3.2.1.slim.min.js"></script>
+
+        <script src="js/jquery-3.5.0.min.js"></script>
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
     </body>
 </html>

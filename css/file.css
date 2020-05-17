@@ -6,11 +6,20 @@
 }
 /*  */
 /* first div*/
+#nav
+{
+    transition: background-color 1s;
+}
+#color
+{
+    color: white;
+    font-size: 20px;
+}
 .parent
 {
     background-image: url('images project/drew-coffman-1872.jpg');
-    background-size: 120% 120%;
-    height: 620px;
+    background-size: cover;
+    height: vh;
     margin: 1px;
     padding: 1px;
 }
@@ -112,4 +121,192 @@ button
     text-align: center;
     margin-top: 30px;
     color: white;
+}
+.arrow
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #8e7754;
+    text-align: center;
+    display: none;
+    cursor: pointer;
+}
+i
+{
+    color: white;
+}
+.socialicon
+{
+    font-size: xx-large;
+    cursor: pointer;
+}
+.nav-link
+{
+    color: white !important;
+}
+
+
+
+
+
+@media (max-width: 575.98px)
+{
+    #nav
+{
+    transition: background-color 1s;
+}
+#color
+{
+    color: white;
+    font-size: 20px;
+}
+.parent
+{
+    background-image: url('images project/drew-coffman-1872.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: vh;
+    margin: 1px;
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.logo
+{
+    margin-left: 25px;
+}
+.child
+{
+    width: 25%;
+    font-size: 10px;
+    color: white;
+}
+.h1
+{
+    font-size: 50px;
+}
+button
+{
+    float: left;
+    width: min-content;
+    height: min-content;
+    margin: 5px;
+    background-color: #8e7754 !important;
+    color: white !important;
+}
+
+/* second div*/
+.bakery
+{
+    background-color: white;
+}
+.child2
+{
+    margin: 30px;
+    text-align: left;
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.bakery2
+{
+    background-color:rgb(248, 228, 228);
+}
+
+/* 3d div*/
+.bakery3
+{
+    text-align: center;
+}
+/* 4d div*/
+.bakery4
+{
+}
+.child4
+{
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    margin: 20px;
+}
+
+.imageparent
+{
+    width: 80%;
+}
+.decoration
+{
+    margin: 10px;
+    font-size: 20px;
+}
+.head
+{
+    font-size: 35px;
+}
+/* 5d div*/
+.bakery5
+{
+    background-color: darkslategray;
+}
+.child5
+{
+    text-align: center;
+    margin: 5px;
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+}
+.Social
+{
+    margin-left: 7px;
+    width: 30px;
+    height: 30px;
+}
+/* 6d div*/
+.lastbakery
+{
+
+    background-color: black;
+}
+.lastlogo
+{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+}
+.arrow
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #8e7754;
+    text-align: center;
+    display: none;
+    cursor: pointer;
+}
+i
+{
+    color: white;
+}
+.socialicon
+{
+    font-size: xx-large;
+    cursor: pointer;
+}
+.nav-link
+{
+    color: white !important;
+}
 }
